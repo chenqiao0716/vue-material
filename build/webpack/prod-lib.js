@@ -12,6 +12,7 @@ import baseConfig from './base';
 
 const version = process.env.VERSION || require('../../package.json').version;
 
+// TODO
 function getDirectories(src) {
   return fs.readdirSync(src).filter((file) => {
     return fs.statSync(path.join(src, file)).isDirectory();

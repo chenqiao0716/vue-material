@@ -16,7 +16,7 @@
   </md-menu-item>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
   import getClosestVueParent from '../../core/utils/getClosestVueParent';
 
   export default {

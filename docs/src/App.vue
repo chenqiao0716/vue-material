@@ -154,6 +154,10 @@
                 <md-list-item class="md-inset">
                   <router-link exact to="/components/whiteframe">Whiteframe</router-link>
                 </md-list-item>
+
+                <md-list-item class="md-inset">
+                  <router-link exact to="/components/selectbox">SelectBox</router-link>
+                </md-list-item>
               </md-list>
             </md-list-expand>
           </md-list-item>

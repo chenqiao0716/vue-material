@@ -1,5 +1,6 @@
 import path from 'path';
 import webpack from 'webpack';
+// TODO
 import eslintFormatter from 'eslint-friendly-formatter';
 import config from '../config';
 
@@ -13,9 +14,12 @@ export default {
   },
   output: {
     path: config.rootPath,
+    // TODO
     publicPath: config.publicPath,
     filename: '[name].js'
   },
+
+  // TODO
   resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
@@ -28,6 +32,7 @@ export default {
         test: /\.(js|vue)$/,
         loader: 'eslint-loader',
         enforce: 'pre',
+        // TODO
         include: [
           resolvePath('build'),
           resolvePath('src'),
@@ -49,6 +54,7 @@ export default {
       },
       {
         test: /\.theme$/,
+        // TODO
         use: ['raw-loader', 'sass-loader']
       },
       {

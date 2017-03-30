@@ -44,6 +44,9 @@ const Layout = (r) => require.ensure([], () => r(require('./pages/ui-elements/La
 const Configuration = (r) => require.ensure([], () => r(require('./pages/themes/Configuration')), 'themes');
 const DynamicThemes = (r) => require.ensure([], () => r(require('./pages/themes/DynamicThemes')), 'themes');
 
+/* Development New Components */
+const SelectBox = (r) => require.ensure([], () => r(require('./pages/components/SelectBox')), 'selectBox');
+
 const main = [
   {
     path: '/',
@@ -217,6 +220,13 @@ const components = [
     path: '/components/whiteframe',
     name: 'components:whiteframe',
     component: Whiteframe
+  },
+
+  // Development New Components Path
+  {
+    path: '/components/selectbox',
+    name: 'components:selectbox',
+    component: SelectBox
   }
 ];
 

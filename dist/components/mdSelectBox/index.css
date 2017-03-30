@@ -1,0 +1,5 @@
+/*!
+* Vue Material v0.7.1
+* Made with love by Marcos Moura
+* Released under the MIT License.
+*/.center-wrap,.left-wrap,.right-wrap{float:left}.select-box-wrap{padding:0 40px}.select-header{padding:10px;color:#fa8919;text-align:center}.select-container{border:1px solid #d8d8d8;overflow-y:auto;overflow-x:hidden;height:200px;min-width:100px;text-align:center}.center-wrap{margin-top:105px;padding:20px}.move{display:block;vertical-align:center;font-size:25px;color:#45f;cursor:pointer}ul{padding:0;list-style:none}.selected{font-weight:bolder;color:#fa8919}li{cursor:pointer}.clearfix:after,.clearfix:before{content:" ";display:table}.clearfix:after{clear:both}

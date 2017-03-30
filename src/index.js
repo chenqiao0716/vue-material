@@ -31,6 +31,8 @@ import MdToolbar from './components/mdToolbar';
 import MdTooltip from './components/mdTooltip';
 import MdWhiteframe from './components/mdWhiteframe';
 
+import MdSelectBox from './components/mdSelectBox';
+
 const options = {
   MdCore,
   MdAvatar,
@@ -63,7 +65,9 @@ const options = {
   MdTabs,
   MdToolbar,
   MdTooltip,
-  MdWhiteframe
+  MdWhiteframe,
+
+  MdSelectBox
 };
 
 options.install = (Vue) => {
